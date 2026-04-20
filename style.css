@@ -1,0 +1,245 @@
+.name {
+	background: linear-gradient(to left, #dda0dd, #e6e6fa);    
+    font-size: 60px; 
+	font-family: arial;
+	font-style: italic;
+	color: red;
+    text-align: center;  
+    display: block;
+	padding: 3px;
+	margin-bottom: 8px;
+}
+.menu {
+	background: linear-gradient(to bottom, #e6e6fa, #dda0dd); 
+    border-radius: 4px;
+    height: 50px;
+    padding-top: 0.1px; 
+    box-shadow: 5px 3px rgb(165, 165, 165);
+}
+.menu .pt{
+	background: linear-gradient(to bottom, #e6e6fa, #9370db);  
+    text-decoration: none;    
+    font-size: 20px;  
+    text-align: center;  
+    display: block;
+    float: left;     
+    border-style: solid;    
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+    padding: 13px  35px;
+    margin: 0 1px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu .pt:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+}
+.menu div{
+	font-size: 20px;  
+    text-align: center;  
+    display:block;  
+    float: left;  
+    position: relative; 
+}
+.menu div .drop{
+	position: absolute;  
+    display: none;       
+    top:100%; 
+    left:0%; 
+	z-index: 10;
+}
+.drop_item{
+	text-decoration: none; 
+    display: block;      
+    background: linear-gradient(to bottom, #e6e6fa, #9370db);
+    color: black;   
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+    padding: 13px  35px;
+}
+.drop_item:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+}
+.menu div:hover div{
+    display: block;
+}
+
+.left{
+	float:left;
+	display: block;      
+    background: linear-gradient(to bottom, #e6e6fa, #dda0dd);
+    color: black;   
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+	width: 15%;
+	margin-top: 10px;
+	box-shadow: 5px 3px rgb(165, 165, 165); 
+    padding-top: 0.1px;
+}
+.left .pt{
+	background: linear-gradient(to bottom, #e6e6fa, #9370db);  
+    text-decoration: none;    
+    font-size: 20px;  
+    text-align: center;  
+    display: block;    
+    border-style: solid;    
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+    padding: 13px  35px;
+    margin: 0 1px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+	width: 150px;
+}
+.left .pt:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+}
+.left div{
+	font-size: 20px;  
+    text-align: center;  
+    display:block;  
+    position: relative; 
+}
+.left div .drop{
+	position: absolute;  
+    display: none;       
+    top:0%; 
+    left:100%; 
+	z-index: 10;
+}
+.item{
+	text-decoration: none; 
+    display: block;      
+    background: linear-gradient(to bottom, #e6e6fa, #9370db);
+    color: black;   
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+    padding: 13px  35px;
+}
+.item:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+}
+.left div:hover div{
+    display: block;
+}
+
+.right{
+	position: relative;
+	float:right;
+	display: block;      
+    background: linear-gradient(to bottom, #e6e6fa, #dda0dd);
+    color: black;   
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+	width: 15%;
+	margin-top: 10px;
+	box-shadow: 5px 3px rgb(165, 165, 165);
+    padding-top: 0.1px;
+}
+
+.right .pt{
+	background: linear-gradient(to bottom, #e6e6fa, #9370db);  
+    text-decoration: none;    
+    font-size: 20px;  
+    text-align: center;  
+    display: block;    
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+    padding: 13px  35px;
+    margin: 0 1px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+	width: 150px;
+}
+.right .pt:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+}
+.right div{
+	font-size: 20px;  
+    text-align: center;  
+    display: block; 
+}
+.right div .drop{
+    display: none; 
+	position: relative;	
+    top:100%; 
+    left:0%; 
+	z-index: 10; 
+}
+.drop_{
+	display: block;
+	background: linear-gradient(to bottom, #e6e6fa, #9370db);
+	text-decoration: none;
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+	color: black;
+    padding: 13px 35px;
+	margin-top: 0px;
+	width: 150px;
+}
+.drop_:hover{
+	background: linear-gradient(to bottom, #d8bfd8, #da70d6);
+    display: block;      
+}
+.right div:hover div{
+    display: block;
+}
+
+.photo{
+	display: block;      
+    background: linear-gradient(to bottom, #e6e6fa, #dda0dd);  
+    border-style: solid;
+    border-width: 0 0.5px 0 0;
+    border-radius: 4px;
+	margin-top: 10px;
+	box-shadow: 5px 3px rgb(165, 165, 165);
+	overflow:hidden;
+}
+.photo .pt{
+	display: inline-block;
+	padding: 5px;
+	width: 190px;
+	height: 190px;
+	margin: 10px;
+	margin-top: 20px;
+	background: white;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.photo div{
+    text-align: center;  
+    display: block;  
+    float: left;  
+    position: relative; 
+}
+.photo div .dr{
+	position: absolute;  
+    display: none;       
+    bottom:10px; 
+    left:10px;
+	width: 91%;
+	z-index: 10;	
+}
+.dr_item{
+	text-decoration: none; 
+    display: block;      
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+    color: black;
+	font-size: 20px;
+    padding: 12px  16px;
+}
+.dr_item:hover{
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+.photo div:hover div{
+    display: block;
+}
